@@ -1,0 +1,11 @@
+days = {"Mon","Tue","Wed"}
+print(f"\n Printing the original set :{days}")
+pop_value=days.pop()
+print(f"Popped value : {pop_value}")
+print(f"Printing the modified set :{days}")
+pop_value=days.pop()
+print(f"Popped value : {pop_value}")
+print(f"Printing the modified set :{days}")
+days=set()
+pop_value=days.pop()
+print(f"Popped value : {pop_value}")
